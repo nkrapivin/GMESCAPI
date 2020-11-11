@@ -174,7 +174,7 @@ const char* LastErrorMessage = "";
 char* LastWebcamName = NULL;
 double LastAsyncId = 0;
 int* LastBufferPointer = NULL;
-int LastFocusFrames = 0;
+int LastFocusFrames = 1;
 
 escapi_capture_params CaptureParams[MAXDEVICES];
 
